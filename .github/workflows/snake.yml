@@ -12,6 +12,10 @@ on:
 # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
 
+# Grant write permissions for the workflow
+permissions:
+  contents: write
+
 # The sequence of runs in this workflow:
 jobs:
   # This workflow contains a single job called "build"
@@ -22,8 +26,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v2
+    # Checks repo under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
 
     # Generates the snake  
       - uses: Platane/snk@master
@@ -37,13 +41,22 @@ jobs:
      # show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
 
+      # Configure git for committing
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Add and commit changes
+      - name: Add and commit changes
+        run: |
+          git add dist/
+          git commit -m "Generate snake animation" || echo "No changes to commit"
+
       # Push the changes
       - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-          force: true
+        run: |
+          git push origin main || true
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
