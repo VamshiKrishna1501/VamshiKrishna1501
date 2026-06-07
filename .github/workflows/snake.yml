@@ -24,6 +24,17 @@ jobs:
         with:
           ref: main
 
+      - name: Debug - Show active branch and files (after main checkout)
+        run: |
+          echo "=== Active Branch Details (after main checkout) ==="
+          echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
+          echo "Current directory: $(pwd)"
+          echo "Working directory contents:"
+          ls -la
+          echo ""
+          echo "dist/ directory contents:"
+          ls -la dist/ 2>/dev/null || echo "dist/ directory not found"
+
       # Generate the SVG snake game
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
@@ -40,18 +51,39 @@ jobs:
           echo "Listing dist/ directory:"
           ls -l dist/
 
+      - name: Debug - Save and verify files before branch switch
+        run: |
+          echo "=== Files before output branch checkout ==="
+          echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
+          mkdir -p /tmp/snake-output
+          cp dist/github-contribution-grid-snake.svg /tmp/snake-output/
+          cp dist/github-contribution-grid-snake-dark.svg /tmp/snake-output/
+          echo "Files saved to /tmp/snake-output/"
+          ls -la /tmp/snake-output/
+
       # Checkout the output branch
       - name: Checkout output branch
         uses: actions/checkout@v3
         with:
           ref: output
 
+      - name: Debug - Show active branch and files (after output checkout)
+        run: |
+          echo "=== Active Branch Details (after output checkout) ==="
+          echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
+          echo "Current directory: $(pwd)"
+          echo "Working directory contents:"
+          ls -la
+          echo ""
+          echo "Temporary saved files:"
+          ls -la /tmp/snake-output/
+
       # Prepare files for output
       - name: Copy generated SVGs to output branch
         run: |
           mkdir -p dist
-          cp ../main/dist/github-contribution-grid-snake.svg dist/
-          cp ../main/dist/github-contribution-grid-snake-dark.svg dist/
+          cp /tmp/snake-output/github-contribution-grid-snake.svg dist/
+          cp /tmp/snake-output/github-contribution-grid-snake-dark.svg dist/
 
       # Commit and push changes
       - name: Commit and push SVGs
