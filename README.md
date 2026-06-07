@@ -220,15 +220,15 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
 
 ## 📫 Reach me out
 
-<div align="center">
+[![Gmail](https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg "Contact via Email")](mailto:vamshi1@gmail.com)
+[![GitHub](https://www.vectorlogo.zone/logos/github/github-ar21.svg "Follow on GitHub")](https://github.com/VamshiKrishna1501)
+[![LinkedIn](https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg "Connect on LinkedIn")](https://www.linkedin.com/in/krishna-15jan22/)
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vamshi150121@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VamshiKrishna1501)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishna-15jan22/)
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=VamshiKrishna1501&style=for-the-badge&color=green" alt="Profile Views" />
+</p>
 
-</div>
 
----
 
 <!--
 **VamshiKrishna1501/VamshiKrishna1501** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
