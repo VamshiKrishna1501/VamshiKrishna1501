@@ -211,7 +211,7 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
 
 ## 📫 Reach me out
 
-[![Gmail](https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg "Contact via Email")](mailto:vamshi1@gmail.com)
+[![Gmail](https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg "Contact via Email")](mailto:vamshi150121@gmail.com)
 [![GitHub](https://www.vectorlogo.zone/logos/github/github-ar21.svg "Follow on GitHub")](https://github.com/VamshiKrishna1501)
 [![LinkedIn](https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg "Connect on LinkedIn")](https://www.linkedin.com/in/krishna-15jan22/)
 
