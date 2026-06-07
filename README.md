@@ -1,23 +1,23 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20my%20Digital%20Space&fontSize=40&fontAlignY=35&desc=Where%20Innovation%20Meets%20Execution&descAlignY=55&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20my%20Digital%20Space&fontSize=40&fontAlignY=35&desc=Where%20Innovation%20Meets%20Technology" alt="header"/>
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=16F70F&center=true&width=435&lines=Hi%2C+I'm+VamshiKrishna+Akubathini+%F0%9F%91%8B+++++++++;An+AI%2FML+Engineer+%F0%9F%A4%96+++++++++;LLM+%26+Generative+AI+Enthusiast+%E2%9C%A8;Open+Source+Contributor+%E2%AD%90)](https://git.io/typing-svg)         
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=16F70F&center=true&width=435&lines=Hi%2C+I'm+VamshiKrishna+Akubathini+%F0%9F%91%8B;An+AI%2FML+Engineer)](https://github.com/VamshiKrishna1501)
 
 ### 👋 ABOUT ME
 ***
 
-I am an AI/ML Engineer with over 4+ years of experience, specializing in developing and deploying supervised and unsupervised machine learning models, as well as Generative AI solutions. I am passionate about creating solutions for real-world challenges and continuously learning, which excites me the most.
+I am an AI/ML Engineer with over 4+ years of experience, specializing in developing and deploying supervised and unsupervised machine learning models, as well as Generative AI solutions. I am passionate about building intelligent systems and solving complex problems through machine learning.
 
 🛠️ Tech Stack
 - **Languages**: Python, R, SQL, Java, PySpark, Pandas
-- **ML/AI**: PyTorch, TensorFlow, Hugging Face, LangChain, NLP, RAG, Hugging Face
+- **ML/AI**: PyTorch, TensorFlow, Hugging Face, LangChain, NLP, RAG
 - **Cloud**: AWS, GCP, Azure
 - **MLOps**: Docker, Kubernetes, MLflow, Kubeflow
 - **Tools**: Git, Linux, Jira
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="separator"/>
 </div>
 
 ## 🚀 What I Do 
@@ -29,7 +29,7 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
 - 📂 **Version Control & Collaboration** - Managing projects using Git and GitHub for collaborative and open-source development.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="separator"/>
 </div>
 
 ### 📊 GitHub Analytics & Developer Metrics
@@ -37,7 +37,7 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
 <table>
   <tr>
     <td align="center" colspan="2">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=VamshiKrishna1501&theme=tokyonight&background=0D1117&border=30363d&stroke=00FF00&ring=00FF00&fire=FF6B6B&currStreakLabel=00FF00&hide_border=true" alt="GitHub Streak Stats">
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=VamshiKrishna1501&theme=tokyonight&background=0D1117&border=30363d&stroke=00FF00&ring=00FF00&fire=FF6B6B&currStreakLabel=00FF00" alt="GitHub Streak"/>
     </td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
 </table>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="separator"/>
 </div>
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=VamshiKrishna1501&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area_color=00FF00&title_color=00FF00)
@@ -97,8 +97,6 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
       </td>
     </tr>
   </table>
-</div>
-
 </div>
 
 <div align="center" style="transform-style: preserve-3d; perspective: 1000px;">
@@ -216,34 +214,22 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
   <br/>
 </div>
 
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Thanks%20for%20Visiting!%20👋&fontSize=24&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Thanks%20for%20Visiting!%20👋&fontSize=24&fontAlignY=65" alt="footer"/>
 </div>
 
 ## 📫 Reach me out
 
-[![Gmail](https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg "Contact via Email")](mailto:vamshi150121@gmail.com)
-[![GitHub](https://www.vectorlogo.zone/logos/github/github-ar21.svg "Follow on GitHub")](https://github.com/VamshiKrishna1501)
-[![LinkedIn](https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg "Connect on LinkedIn")](https://www.linkedin.com/in/krishna-15jan22/)
+<div align="center">
 
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vamshi150121@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VamshiKrishna1501)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishna-15jan22/)
 
+</div>
 
-
+---
 
 <!--
 **VamshiKrishna1501/VamshiKrishna1501** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white "Contact via Email")](mailto:vamshi150121@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white "Follow on GitHub")](https://github.com/VamshiKrishna1501)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white "Connect on LinkedIn")]((https://www.linkedin.com/in/krishna-15jan22/))
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
