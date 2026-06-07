@@ -204,6 +204,18 @@ I am an AI/ML Engineer with over 4+ years of experience, specializing in develop
   </table>
 </div>
 
+## 🐍 Contribution Snake Animation
+
+<div align="center">
+  <h3>🎯 Watch the Snake Eat My Contributions!</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VamshiKrishna1501/VamshiKrishna1501/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VamshiKrishna1501/VamshiKrishna1501/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/VamshiKrishna1501/VamshiKrishna1501/output/github-contribution-grid-snake.svg">
+  </picture>
+  <br/>
+</div>
+
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Thanks%20for%20Visiting!%20👋&fontSize=24&fontAlignY=65" />
