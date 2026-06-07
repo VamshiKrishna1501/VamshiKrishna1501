@@ -1,27 +1,32 @@
 name: Generate Snake Animation
 
 on:
-  # Run automatically every 24 hours
+  # Run automatically every hour
   schedule:
     - cron: "0 */1 * * *"
   
-  # Allows manual workflow run
+  # Allows manual trigger
   workflow_dispatch:
   
-  # Run on every push to main branch
+  # Run on push to main branch
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
-      # Generates a snake game from a GitHub user's contributions graph
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      # Generate the SVG snake game
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -31,12 +36,26 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      # Push the generated content to the output branch
-      - name: Push github-contribution-grid-snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+
+      # Checkout the output branch
+      - name: Checkout output branch
+        uses: actions/checkout@v3
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ref: output
+      
+      # Copy generated SVGs to the branch
+      - name: Prepare files for output
+        run: |
+          mkdir -p dist
+          cp dist/github-contribution-grid-snake.svg dist/
+          cp dist/github-contribution-grid-snake-dark.svg dist/
+
+      # Commit and push changes to output branch
+      - name: Commit and push SVGs
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add dist/*
+          # Only commit if there are changes
+          git diff --cached --quiet || git commit -m "Update contribution grid snake SVGs"
+          git push origin output
