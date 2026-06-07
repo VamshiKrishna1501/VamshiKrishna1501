@@ -1,14 +1,12 @@
 name: Generate Snake Animation
 
 on:
-  # Run automatically every hour
+  # Run hourly
   schedule:
     - cron: "0 */1 * * *"
-  
-  # Allows manual trigger
+  # Manual trigger
   workflow_dispatch:
-  
-  # Run on push to main branch
+  # On push to main
   push:
     branches:
       - main
@@ -19,7 +17,7 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v3
@@ -33,37 +31,33 @@ jobs:
           github_user_name: VamshiKrishna1501
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: List files after generation
+        run: |
+          echo "Listing dist/ directory:"
+          ls -l dist/
 
       # Checkout the output branch
       - name: Checkout output branch
         uses: actions/checkout@v3
         with:
           ref: output
-      
-      # Copy generated SVGs to the branch
-      - name: Prepare files for output
+
+      # Prepare files for output
+      - name: Copy generated SVGs to output branch
         run: |
           mkdir -p dist
-          cp dist/github-contribution-grid-snake.svg dist/
-          cp dist/github-contribution-grid-snake-dark.svg dist/
+          cp ../main/dist/github-contribution-grid-snake.svg dist/
+          cp ../main/dist/github-contribution-grid-snake-dark.svg dist/
 
-
-          
-
-      # Commit and push changes to output branch
+      # Commit and push changes
       - name: Commit and push SVGs
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add dist/*
-          # Only commit if there are changes
           git diff --cached --quiet || git commit -m "Update contribution grid snake SVGs"
           git push origin output
-
-
-      - name: List files after generation
-        run: |
-          ls -l dist/
