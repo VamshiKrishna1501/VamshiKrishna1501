@@ -12,7 +12,7 @@ jobs:
       contents: write
 
     env:
-      FILE_PATH: "public/auto-streak/streakdatakeeper.txt"
+      FILE_PATH: "VamshiKrishna1501/Trip-Planner-Agent/blob/main/streakdatakeeper.txt"
       MIN_COMMITS: 2
       MAX_COMMITS: 5
       BRANCH_NAME: "main"
