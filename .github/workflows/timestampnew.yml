@@ -1,8 +1,8 @@
-name: Update Timestamp Every 30 Minutes
+name: Update Timestamp Every 5 Minutes
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # Runs every 30 minutes (cron is interpreted in UTC by GitHub)
+    - cron: "*/30 * * * *"   # Runs every 5 minutes
   workflow_dispatch:       # Allows manual trigger
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
       - name: Checkout main branch
@@ -18,20 +18,20 @@ jobs:
         with:
           ref: main
 
-      - name: Create or update timestamp file (Central Time)
+      - name: Create or update timestampNew file
         run: |
           mkdir -p data
-          TZ='America/Chicago' date '+Last updated ON: %Y-%m-%d %H:%M:%S %Z' > data/timestampnew.txt
+          echo "Last updated ON: $(TZ='America/Chicago'+date -u '+%Y-%m-%d %H:%M:%S UTC')" > data/timestampNew.txt
 
       - name: Add and commit timestamp file
         run: |
           git config --global user.name "VamshiKrishna1501"
           git config --global user.email "vamshihoneyy@gmail.com"
           git add data/timestamp.txt
-          git diff --cached --quiet || git commit -m "Update timestamp"
-
+          git diff --cached --quiet || git commit -m "Update timestampNew"
+          
       - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
