@@ -166,7 +166,7 @@ I am an AI/ML Engineer. I have experience in specializing, developing and deploy
           <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
           <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
         </p>
-        <a href="https://github.com/abhishek-maurya576/student-performance-predictor">
+        <a href="https://github.com/">
           <img src="https://img.shields.io/badge/View_Project-→-blue?style=for-the-badge" alt="View Project"/>
         </a>
       </td>
@@ -181,7 +181,7 @@ I am an AI/ML Engineer. I have experience in specializing, developing and deploy
           <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Google Gemini"/>
           <img src="https://img.shields.io/badge/Cloud_Firestore-FFA611?style=flat-square&logo=firebase&logoColor=black" alt="Cloud Firestore"/>
         </p>
-        <a href="https://github.com/abhishek-maurya576/auracare">
+        <a href="https://github.com/">
           <img src="https://img.shields.io/badge/View_Project-→-blue?style=for-the-badge" alt="View Project"/>
         </a>
       </td>
@@ -194,7 +194,7 @@ I am an AI/ML Engineer. I have experience in specializing, developing and deploy
           <img src="https://img.shields.io/badge/Cloud_Firestore-FFA611?style=flat-square&logo=firebase&logoColor=black" alt="Cloud Firestore"/>
           <img src="https://img.shields.io/badge/Provider-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Provider"/>
         </p>
-        <a href="https://github.com/abhishek-maurya576/linkzy">
+        <a href="https://github.com/">
           <img src="https://img.shields.io/badge/View_Project-→-blue?style=for-the-badge" alt="View Project"/>
         </a>
       </td>
