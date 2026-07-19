@@ -7,7 +7,7 @@
 ### 👋 ABOUT ME
 ***
 
-I am an AI/ML Engineer with over 4+ years of experience, specializing in developing and deploying supervised and unsupervised machine learning models, as well as Generative AI solutions. I am passionate about building intelligent systems and solving complex problems through machine learning.
+I am an AI/ML Engineer. I have experience in specializing, developing and deploying supervised and unsupervised machine learning models, as well as Generative AI solutions. I am passionate about building intelligent systems and solving complex problems through machine learning.
 
 🛠️ Tech Stack
 - **Languages**: Python, R, SQL, Java, PySpark, Pandas
