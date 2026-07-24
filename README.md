@@ -2,8 +2,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20my%20Digital%20Space&fontSize=40&fontAlignY=35&desc=Where%20Innovation%20Meets%20Technology" alt="header"/>
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=16F70F&center=true&width=435&lines=Hi%2C+I'm+VamshiKrishna+Akubathini+%F0%9F%91%8B;An+AI%2FML+Engineer)](https://github.com/VamshiKrishna1501)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=16F70F&center=true&width=435&lines=Hi%2C+I'm+VamshiKrishna+%F0%9F%91%8B;An+AI%2FML+Engineer)](https://github.com/VamshiKrishna1501)
 
+<!-- to get full Name 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=16F70F&center=true&width=435&lines=Hi%2C+I'm+VamshiKrishna+Akubathini+%F0%9F%91%8B;An+AI%2FML+Engineer)](https://github.com/VamshiKrishna1501)
+-->
 ### 👋 ABOUT ME
 ***
 
@@ -227,7 +230,6 @@ I am an AI/ML Engineer. I have experience in specializing, developing and deploy
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=VamshiKrishna1501&style=for-the-badge&color=green" alt="Profile Views" />
 </p>
-
 
 
 <!--
