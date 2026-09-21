@@ -56,8 +56,10 @@ I am an AI/ML Engineer. I have experience in specializing, developing and deploy
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="separator"/>
 </div>
-
+<!-- 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=VamshiKrishna1501&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area_color=00FF00&title_color=00FF00)
+-->
+
 
 
 ## 💻 Tech Stack & Tools | Python, AI/ML & DataScientist
@@ -220,6 +222,8 @@ I am an AI/ML Engineer. I have experience in specializing, developing and deploy
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Thanks%20for%20Visiting!%20👋&fontSize=24&fontAlignY=65" alt="footer"/>
 </div>
+
+<!-- 
 
 ## 📫 Reach me out
 
